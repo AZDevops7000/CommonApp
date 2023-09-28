@@ -17,11 +17,11 @@ variables:
 steps:
 - task: SonarCloudPrepare@1
   inputs:
-    SonarCloud: 'sonar'
+    SonarCloud: 'sonarcloud'
     organization: 'devopsorg100'
     scannerMode: 'MSBuild'
-    projectKey: 'devopsorg100'
-    projectName: 'devopsorg100'
+    projectKey: 'f639924676c17606ebc068b2c4333d1833bbee3b'
+    projectName: 'devops100'
 - task: SonarCloudAnalyze@1
   inputs:
     jdkversion: 'JAVA_HOME_17_X64'
